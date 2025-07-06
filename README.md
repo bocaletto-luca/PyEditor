@@ -1,6 +1,8 @@
 # PyEditor v1.0.0
 #### Author: Bocaletto Luca
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue?style=for-the-badge&logo=gnu)](LICENSE) [![Language: Python](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python)](https://www.python.org/) [![Linux-Compatible](https://img.shields.io/badge/Linux-Compatible-blue?style=for-the-badge&logo=linux)](https://www.kernel.org/) [![Status: Complete](https://img.shields.io/badge/Status-Complete-brightgreen?style=for-the-badge)](https://github.com/bocaletto-luca/Directory-Monitor)
+
 PyEditor is a modern, terminal-based text editor in Python that blends Nano’s simplicity with IDE-style features. It uses `curses` for fast screen updates, Pygments for real-time syntax highlighting, and a JSON config file for full customization of keybindings (save, quit, undo, redo, search, replace) and color themes. Core editing features include undo/redo stacks, incremental search (Ctrl+F), regex find & replace (Ctrl+R), dynamic line numbering, mouse-driven cursor placement, and a colorized status bar showing file name, modified flag, cursor position, and shortcut hints. It runs entirely in the console—ideal for SSH sessions, containers, or headless environments.
 
 ---
